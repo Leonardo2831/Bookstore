@@ -11,14 +11,14 @@ public class Main {
         String verifySeeBooks = "Não";
 
         do {
-            System.out.println("Deseja ver os livros disponíveis? (Sim/Não)");
+            System.out.println("Deseja ver os livros disponíveis em nossa livraria? (Sim/Não)");
             verifySeeBooks = input.next();
 
             if(verifySeeBooks.equalsIgnoreCase("Sim")){
                 Library library = new Library("src/database/books.txt");
 
                 try {
-                    library.loadBooks(input);
+                    verifySeeBooks = library.loadBooks(input);
                 } catch (Exception err){
                     System.err.println(err.getMessage());
                     System.out.println("Ocorreu um erro ao carregar os livros, tente novamente mais tarde ");
@@ -28,6 +28,6 @@ public class Main {
                 System.out.println("Obrigado por visitar nossa livraria!");
             }
 
-        } while(verifySeeBooks.equals("Sim"));
+        } while(verifySeeBooks.equalsIgnoreCase("Sim"));
     }
 }
