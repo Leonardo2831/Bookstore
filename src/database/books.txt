@@ -1,4 +1,4 @@
-1;O Senhor dos Anéis;J.R.R. Tolkien;1954
-2;1984;George Orwell;1949
-3;Dom Quixote;Miguel de Cervantes;1605
-4;A Divina Comédia;Dante Alighieri;1320
+1;O Senhor dos Anéis;J.R.R. Tolkien;1954-10-02;Juju;2026-01-13 12:06
+2;1984 George Orwell;George Orwell;1949-08-21;Jorge;2026-01-13 09:04
+3;Dom Quixote;Miguel de Cervantes;1605-01-29
+4;A Divina Comédia;Dante Alighieri;2025-08-14;Leo;2026-01-13 13:45
